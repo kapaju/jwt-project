@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+.korostus {
+    background-color: paleturquoise;
+}
+
+aside.card {
+    background-color: antiquewhite;
+    height: fit-content;
+    position: sticky;
+    top: 0;
+}
+
+#sisalto {
+    margin: 5px;
+}
+
+div.card {
+    padding: 0px;
+}
+
+#yhteenveto {
+    background-color: antiquewhite;
+}

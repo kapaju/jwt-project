@@ -1,0 +1,18 @@
+
+header  { grid-area: h; }
+main    { grid-area: m; }
+aside   { grid-area: a; }
+footer  { grid-area: f; }
+
+.container {
+    display: grid;
+    height: 100%;
+    grid-gap: 20px;
+    grid-template-rows:  60px auto 90px;
+    grid-template-columns: 300px repeat(10, 1fr);
+
+    grid-template-areas: 
+    "h h h h h h h h h h h h"
+    "a m m m m m m m m m m m"
+    "f f f f f f f f f f f f"; 
+}
